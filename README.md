@@ -34,9 +34,11 @@ The system uses **MediaPipe**, **OpenCV**, and a deep learning model (trained wi
 ## 📁 Project Structure
 
 signLanguageDetection/
-├── Sign Language Detection.ipynb # Jupyter notebook with training + prediction
-├── action.h5 # Trained gesture recognition model
-├── MP_Data/ # Raw MediaPipe data samples
-├── Logs/train/ # Training logs for visualization
-├── 0.npy # Encoded training data (example)
-├── .ipynb_checkpoints/ # Jupyter autosaves
+├── Sign Language Detection.ipynb     # Jupyter notebook with training + prediction
+├── action.h5                         # Trained gesture recognition model
+├── MP_Data/                          # Raw MediaPipe data samples for training
+├── Logs/
+│   └── train/                        # TensorBoard training logs
+├── 0.npy                             # Example gesture training array (NumPy)
+├── .ipynb_checkpoints/               # Jupyter autosaved checkpoints
+
